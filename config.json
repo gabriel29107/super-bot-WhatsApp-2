@@ -1,0 +1,27 @@
+{
+  "prefix": "/",
+  "owner": "40700000000",
+  "botName": "FakeGamble MD",
+
+  "economy": {
+    "startingMoney": 1000,
+    "dailyReward": 500,
+    "weeklyReward": 5000,
+
+    "cooldowns": {
+      "work": 30,
+      "crime": 30,
+      "steal": 30,
+      "gamble": 30,
+      "daily": 86400,
+      "weekly": 604800
+    },
+
+    "steal": {
+      "successChance": 35,
+      "minPercent": 5,
+      "maxPercent": 20,
+      "failFine": 250
+    }
+  }
+}

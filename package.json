@@ -1,0 +1,19 @@
+{
+  "name": "fakegamble-md",
+  "version": "1.0.0",
+  "description": "WhatsApp MD Economy Bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "pino": "^9.3.2",
+    "chalk": "^5.3.0",
+    "axios": "^1.7.2",
+    "moment-timezone": "^0.5.45",
+    "fs-extra": "^11.2.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
